@@ -1,5 +1,8 @@
 <!doctype html>
 <html lang="en">
+
+          <!-- all the hidden down stuff made everything whack -->
+
   <head>
     <!-- Required meta tags -->
     <title>Academy Cinemas</title>
@@ -12,12 +15,12 @@
 
     <title>Hello, world!</title>
  </head>
-  <body>
+  <body id="home">
         <!-- Content here -->
         <div class="container">
             
             <!-- navbar -->
-            <nav class="navbar navbar-toggleable-lg navbar-light" style="background-color: #e3f2fd;">
+            <nav class="navbar navbar-toggleable-lg fixed-top navbar-light" style="background-color: #e3f2fd;">
                     <a class="navbar-brand" href="#">
                         <img src="./images/movie_logo.gif" width="60" height="58" alt="">
                     </a>
@@ -28,7 +31,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                         </li>
 
                         <li class="nav-item">
@@ -40,7 +43,7 @@
                         </li>
 
                         <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="#deals">Deals</a>
                         </li>
                       </ul>
                       <form class="form-inline my-2 my-lg-0">
@@ -52,7 +55,7 @@
             <!--/navbar -->
 
             <!--jumbotron -->
-            <div class="jumbotron jumbotron-fluid text-center bg-info">
+            <div class="jumbotron jumbotron-fluid text-center bg-info mt-4">
                 <div class="container">
                   <h1 class="display-3">Academy Cinemas</h1>
                   <p class="lead">People Definitely Still Go to Movie Theaters</p>
@@ -209,7 +212,7 @@
             <!--/sign up -->
 
             <!--footer -->
-            <ul class="nav">
+            <ul class="nav" id="deals">
                 <li class="nav-item">
                   <small><a class="nav-link active" href="#">Movie Rewards</a></small>
                 </li>
